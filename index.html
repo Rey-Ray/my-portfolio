@@ -131,6 +131,39 @@
         .skill-card li:last-child {
             border-bottom: none;
         }
+
+        .contact {
+            background-color: #f8f9fa;
+        }
+
+        .contact-content {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-top: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1rem 0;
+            font-size: 1.1rem;
+        }
+
+        .contact-item a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-item a:hover {
+            color: #764ba2;
+        }
     </style>
 </head>
 <body>
@@ -143,6 +176,7 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -222,6 +256,20 @@
                     <li>NumPy</li>
                     <li>Matplotlib</li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="contact-content">
+            <p>Feel free to reach out to me for any opportunities or collaborations.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span>📧</span>
+                    <a href="mailto:Reyhaneh.ahmadinejad@gmail.com">Reyhaneh.ahmadinejad@gmail.com</a>
+                </div>
             </div>
         </div>
     </section>
